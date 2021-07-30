@@ -1,0 +1,871 @@
+
+
+@media (max-width: 1600px){
+  .header__search__form{
+    width: 70%;
+    right: 4%;
+  }
+}
+
+@media (max-width: 1280px){
+
+  .container{
+    padding-right: 56px;
+    padding-left: 43px;
+  }
+
+  /* Header */
+
+  .header__container{
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .hero-nav{
+    display: none;
+  }
+
+  .logo{
+    margin-left: 29px;
+    width: 150px;
+    height: 48px;
+  }
+
+  .header__search__form{
+    width: 44%;
+    right: 0;
+  }
+
+  .header__search__form-form {
+    width: 72%;
+  }
+
+  .header__container__limk{
+    display: inline-block;
+  }
+
+  .header__search{
+    padding-right: 0;
+  }
+
+  .header-nav__search{
+    padding: 0;
+  }
+
+  /* Hero */
+
+  .hero__container{
+    margin-top: 0;
+    padding: 160px 3% 115px 46px;
+    background: url("../img/low-angle-photo-of-balconies-2462015\ 1.jpg") center center no-repeat;
+    background-size: cover;
+  }
+
+  .hero__container_window-img{
+    background: url("../img/brown-and-blue-glass-building-2093076\ 1.jpg") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .hero__container_apartment-img{
+    background: url("../img/apartment-apartment-building-architecture-building-323705\ 1.jpg") center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .hero__heading{
+    padding-bottom: 10px;
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: 800;
+  }
+
+  .hero__discription{
+    padding-bottom: 110px;
+    width: 86%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__button{
+    padding: 25px 41px;
+  }
+
+  /* About-us */
+
+  .container_about-us{
+    margin-top: 59px;
+  }
+
+  .about-us__discription{
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  .about-us__list{
+    flex-direction: column;
+    margin-top: 59px;
+  }
+
+  .about-us__list__item-img{
+    min-height: 640px;
+  }
+
+  .about-us__list__item:not(:last-child){
+    margin-bottom: 50px;
+  }
+
+  .about-us__list__item:not(:nth-child(2n)){
+    margin-right: 0px;
+  }
+
+  .more-detailed__discription:not(:last-child){
+    margin-bottom: 40px;
+  }
+
+  .about-us__list__item__info{
+    padding: 39px 49px 37px 45px;
+  }
+
+  .about-us__list__item__description{
+    width: 60%;
+  }
+
+  .more-detailed__discription__cube{
+    margin-top: 75px;
+    margin-left: 114px;
+  }
+
+  .about-us__list__item__description-btn{
+    padding: 19px 35px;
+  }
+
+  .more-detailed__discription{
+    padding: 67px 11% 65px 37.6%;
+  }
+
+  .more-detailed__discription-cube {
+    background-size: 19%;
+    background-position: 15% 48%;
+  }
+
+  .more-detailed__discription-gear{
+    background-size: 19%;
+    background-position: 15% 44%;
+  }
+
+
+    /* Our-work */
+
+  .container__our-work{
+    margin-top: 59px;
+    margin-bottom: 0;
+  }
+
+  .our-work__nav{
+    margin: 48px 0 46px;
+    padding-left: 1px;
+  }
+
+  .our-work__advisory__discription{
+    padding-right: 52px;
+  }
+
+  .our-work__advisory::after {
+    width: 47%;
+  }
+
+  .our-work__advisory__discription__buttons{
+    margin-top: 31px;
+  }
+
+  .our-work__advisory__more{
+    padding: 21px 38px;
+  }
+
+  .our-work__advisory__contract{
+    padding: 21px 38px;
+  }
+
+    /* FAQ */
+
+    .container__faq{
+      margin: 53px 0 53px 0;
+    }
+
+    .faq__item__question{
+      width: 83%;
+      font-size: 20px;
+    }
+
+    .faq__item__question-link{
+      padding: 28px 0 23px;
+    }
+
+      /* Footer */
+
+      .footer__left{
+        width: 30%;
+      }
+
+      .footer_nav__item__link{
+        font-size: 18px;
+      }
+
+      .footer__center{
+        margin-left: 12%;
+        width: 57.5%;
+      }
+
+      .footer__form__buttons__btn{
+        margin-right: 9px;
+        padding: 22px 38px;
+      }
+
+    .footer__right{
+      display: none;
+    }
+}
+
+@media (max-width: 945px){
+
+  .container{
+    padding: 0;
+  }
+
+    /* Header */
+
+    .header__container{
+      height: 67px;
+    }
+
+    .header__container__limk{
+      padding-left: 48px;
+    }
+
+    .header-nav__menu{
+      padding: 20px 89px 211px 88px;
+    }
+
+    .header-nav__menu-button{
+      padding-bottom: 108px;
+    }
+
+    .header-nav__menu-items{
+      margin-left: 42px;
+    }
+
+    .logo{
+      margin: 9px 0 14px 53px;
+    }
+
+    .header__search__form{
+      width: 47%;
+      right: 1%;
+      top: 7px;
+    }
+
+    .header__search__form-input{
+      margin-left: 10px;
+      padding-bottom: 0;
+      border-radius: 20px;
+      border-bottom: none;
+    }
+
+    .header__search{
+      padding-top: 0;
+      padding-right: 49px;
+    }
+
+    /* Hero*/
+
+  .hero__container{
+    padding: 194px 3% 115px 49px;
+  }
+
+  .hero__heading{
+    padding-bottom: 10px;
+  }
+
+  .hero__discription{
+    width: 100%;
+  }
+
+  .hero__button{
+    padding: 25px 41px;
+  }
+
+
+
+  /* About-us */
+
+  .container_about-us{
+    margin: 59px 50px 0px 49px;
+  }
+
+  .about-us__discription{
+    margin-top: 24px;
+  }
+
+  .about-us__list{
+    margin-top: 60px;
+  }
+
+  .about-us__list__item-img{
+    min-height: 648px;
+  }
+
+  .about-us__list__item__info{
+    padding: 24px 30px 25px 29px;
+  }
+
+  .about-us__list__item__description{
+    width: 66%;
+    line-height: 31px;
+  }
+
+  .about-us__list__item__description-btn{
+    padding: 19px 35px;
+  }
+
+  .about-us__list__item:not(:last-child){
+    margin-bottom: 40px;
+  }
+
+  .about-us__list__more-detailed{
+    height: auto;
+  }
+
+  .more-detailed__discription{
+    padding: 38px 5% 35px 26.5%;
+  }
+
+  .more-detailed__discription-cube {
+    background-size: 18%;
+    background-position: 5% 52%;
+}
+
+.more-detailed__discription-gear {
+  background-size: 17%;
+  background-position: 6% 51%;
+}
+
+    /* Our-work */
+
+    .container__our-work{
+      margin: 59px 50px 0 44px;
+    }
+
+    .our-work__nav{
+      justify-content: space-between;
+      margin-top: 48px;
+      margin-bottom: 45px;
+      padding-left: 7px;
+    }
+
+    .our-work__advisory-consultation::before{
+      background: url("../img/Rectangle18.jpg");
+    }
+
+    .our-work__advisory-estimate::before{
+      background: url("../img/Rectangle\ 19.jpg");
+    }
+
+    .our-work__advisory-contractors::before{
+      background: url("../img/Rectangle\ 20.jpg");
+    }
+
+    .our-work__advisory-inspection::before{
+      background: url("../img/Rectangle\ 21.jpg");
+    }
+
+  .our-work__advisory::before {
+    content: "";
+    width: 100%;
+    min-height: 284px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .ur-work__advisory::before{
+    display: none;
+  }
+
+    .our-work__advisory__img{
+      width: 100%;
+    }
+
+    .our-work__advisory__discription{
+      flex: none;
+      margin-top: 40px;
+      padding: 0;
+      padding-left: 6px;
+      width: 100%;
+    }
+
+    .our-work__advisory__discription__buttons{
+      margin-top: 29px;
+    }
+
+    .our-work__advisory__more{
+      padding: 22px 38px;
+    }
+
+    .our-work__advisory__contract{
+      padding: 21px 38px;
+    }
+
+    /* FAQ */
+
+    .container__faq{
+      margin: 48px 23px 59px 50px;
+    }
+
+    .heading__faq {
+      margin-bottom: 36px;
+    }
+
+    .faq__item__question-link{
+      padding: 27px 0 30px;
+    }
+
+    .faq__item__question{
+      width: 87%;
+    }
+
+    .faq__item__more {
+     margin-right: 27px;
+    }
+
+    .faq__item__question-discription{
+      width: 100%;
+    }
+
+   /* Footer */
+
+   .footer__container{
+     padding-top: 67px;
+     padding-left: 49px;
+     flex-direction: column-reverse;
+   }
+
+   .footer__nav{
+     display: none;
+   }
+
+   .footer__left{
+     padding-top: 58px;
+     width: 100%;
+   }
+
+   .footer__logo{
+     margin-bottom: 12px;
+   }
+
+   .footer__social{
+     margin-top: 0;
+   }
+
+   .footer__center{
+     margin: 0;
+     width: 74%;
+   }
+
+   .footer__input{
+     max-width: 100%;
+   }
+   .footer__form__buttons{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 4px;
+   }
+
+   .footer__form__buttons__btn{
+    margin-bottom: 10px;
+    margin-right: 7px;
+    padding: 22px 39px;
+   }
+
+   .footer__form__buttons__lable{
+     margin-bottom: 10px;
+   }
+}
+
+@media (max-width: 569px){
+  .our-work__nav__steps:not(:last-child){
+    margin-right: auto;
+  }
+
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-nav__menu{
+    left: auto;
+    padding: 11px 10px 78px 61px;
+  }
+
+
+  .header-nav__menu-button{
+    padding-bottom: 31px;
+    margin-left: auto;
+  }
+
+  .header-nav__menu-close-button{
+    width: 19px;
+    height: 19px;
+  }
+
+ .header-nav__menu-close-button rect {
+  fill: #c4c4c4;
+ }
+
+  .header-nav__menu-items{
+    padding-bottom: 18px;
+    margin-right: 44px;
+    margin-left: 0;
+  }
+
+  .header-nav__menu-link{
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .header__search{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Header  */
+
+  .header__container{
+    height: 44px;
+    flex-direction: row-reverse;
+  }
+
+  .logo{
+    margin: 0 0 0 15px;
+    width: 97px;
+    height: 31px;
+  }
+
+  .header__search{
+    display: none;
+  }
+
+  .header__container__limk{
+    margin-top: 4px;
+    margin-right: 10px;
+    padding-left: 0;
+  }
+
+  .burger{
+    width: 25px;
+    height: 19px;
+  }
+
+  /* Hero */
+
+  .hero__container{
+    margin: 0 12px 0 12px;
+    padding: 34px 7% 39px 18px;
+    min-height: 262px;
+  }
+
+  .swiper-button-prev{
+    left: 13px;
+  }
+
+  .hero__heading{
+    padding-bottom: 6px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .hero__discription{
+    padding-bottom: 36px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+  }
+
+  .hero__button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 13px 28px;
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  /* About-us */
+
+  .container_about-us{
+    margin: 39px 12px 14px 15px;
+  }
+
+  .heading{
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .about-us__discription{
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about-us__list{
+    margin-top: 11px;
+  }
+
+  .about-us__list__item-img{
+    width: 100%;
+    min-height: 0;
+    max-height: 200px;
+  }
+
+  .about-us__list__item:not(:last-child){
+    margin-bottom: 181px;
+  }
+
+  .more-detailed__discription:not(:last-child){
+    margin-bottom: 17px;
+  }
+
+  .about-us__list__item__info{
+    display: block;
+    margin-top: 200px;
+    padding: 7px 11px 3px 0;
+    background: var(--main-color);
+  }
+
+  .about-us__list__item__description{
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+  .about-us__list__item__description-btn{
+    display: block;
+    padding: 11px 42px 13px 42px;
+    margin: 11px 0 0 0;
+    border: 2px solid var(--link-color);
+    font-size: 12px;
+    color: var(--link-color);
+  }
+
+  .more-detailed__discription{
+    padding: 63px 2% 8px 0;
+    border: none;
+  }
+
+  .about-us__list__more-detailed{
+    margin-top: 58px;
+  }
+
+  .more-detailed__discription-cube{
+    background-size: 64px;
+    background-position: top left;
+  }
+
+  .more-detailed__discription-gear{
+    background-size: 64px;
+    background-position: top left;
+  }
+
+  .text-header{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+  }
+
+  .more-detailed__discription__text__annotation{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* Our-work */
+
+  .container__our-work{
+    margin: 39px 16px 0 15px;
+  }
+
+  .our-work__nav{
+    margin-top: 34px;
+    margin-bottom: 16px;
+    padding-left: 0;
+  }
+
+  .our-work__nav__steps:not(:last-child){
+    margin: 0;
+  }
+
+  .our-work__advisory::before{
+    min-height: 160px;
+  }
+
+  .our-work__nav__steps__link{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .our-work__advisory__discription{
+    margin-top: 12px;
+    padding-left: 0;
+  }
+
+  .our-work__advisory__discription__text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .our-work__advisory__discription__buttons{
+    margin-top: 20px;
+  }
+
+  .our-work__advisory__more{
+    margin-right: 5px;
+    padding: 13px 44px 15px 44px;
+    font-size: 12px;
+  }
+
+  .our-work__advisory__contract{
+    padding: 12px 31px 14px 31px;
+    font-size: 12px;
+  }
+
+  .faq__item__question-discription{
+    font-size: 16px;
+  }
+
+    /* FAQ */
+
+  .container__faq{
+    margin: 30px 14px 39px 14px;
+  }
+
+  .heading__faq {
+    margin-bottom: 14px;
+  }
+
+  .faq__item__question-link{
+    padding: 28px 0 32px;
+  }
+
+  .faq__item__question{
+    width: 82%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .faq__item__more{
+    margin-right: 0;
+    height: 30px;
+    width: 30px;
+  }
+
+  /* Footer */
+
+  .footer__container{
+    padding-right: 18px;
+    padding-left: 13px;
+    padding-top: 38px;
+    padding-bottom: 39px;
+  }
+
+  .footer__center{
+    margin: 0px;
+    width: 100%;
+  }
+
+  .heading__footer {
+    margin-bottom: 20px;
+  }
+
+  .footer__form{
+    align-items: flex-start;
+  }
+
+  .footer__input{
+    padding-left: 20px;
+  }
+
+  .footer__input::placeholder{
+    font-size: 14px;
+  }
+
+  .footer__form__buttons{
+    margin-top: 2px;
+    justify-content: center;
+  }
+
+  .footer__form__buttons__btn{
+    display: block;
+    margin-bottom: 20px;
+    padding: 14px 28px 13px 28px;
+    font-size: 12px;
+  }
+
+  .footer__form__buttons__lable{
+    margin-left: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #595959;
+  }
+
+  .footer__left{
+    margin: 0px;
+    padding: 55px 0 0 37px;
+  }
+
+  .footer__logo{
+    margin-left: 45px;
+    margin-bottom: 12px;
+    text-align: center;
+    width: 131px;
+    height: 42px;
+  }
+
+  .footer__social{
+    margin-left: 45px;
+    margin-top: 0;
+  }
+
+  .footer__social__item{
+    margin-right: 15px;
+  }
+
+  .footer__social__facebook{
+    background-size: cover;
+    height: 34.4px;
+    width: 34.4px;
+  }
+
+  .footer__social__vk{
+    background-size: cover;
+    height: 34.4px;
+    width: 34.4px;
+  }
+
+  .footer__social__instagram{
+    background-size: cover;
+    height: 34.4px;
+    width: 34.4px;
+  }
+}
+
+
+
+
+
+
